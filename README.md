@@ -12,6 +12,8 @@ The purpose of this repository is to show how to use PHP correctly. This is a ve
 </ul>
 <h3><u>Platforms</u></h3>
     Microsoft Windows
+    PHP 5.0 or Higher
+    MySQL
 
     
 
