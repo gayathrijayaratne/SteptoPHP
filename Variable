@@ -1,0 +1,22 @@
+PHP Variables 
+As the algebra, PHP variables cab=n be used to hold values or expressions. 
+Rules: 
+•	Variable starts with $ sign 
+•	It followed by the name of the variable
+•	Variable name must start with a letter or the underscore character, but not a number
+•	Variable names are case sensitive.
+Ex: 
+<html>
+<body>
+<h1>PHP Variables</h1>
+<?php
+$x=5; // assign value to variable
+$y=6; // assign value to variable
+$z=$x+$y;
+echo "<h3>Z=".$z."</h3>";
+?>
+</body>
+</html>
+PHP Data Types
+String 				Integer 		Float 			Boolean 
+Array 				Object 			Null
