@@ -1,0 +1,23 @@
+PHP  
+•	Is an abbreviation for PHP Hypertext Pre-processor
+•	Is widely used, open source scripting language 
+•	Scripts are implemented on the server 
+•	Runs on numerous platforms such as Windows, Linux, UNIX, Mas OS etc.
+•	Well-matched with just about all servers such as Apache, IIS etc.
+•	Supports extensive range of databases 
+•	Easy to learn 
+•	Runs effectively on the server side
+Basic PHP Syntax
+PHP script stars with <?php and ends with ?>. And can be placed anywhere in the document. File extension of the PHP files is .php. PHP file normally contain HTML tags and some PHP scripting code.
+Ex:
+<html>
+<head>
+<title>Basic01</title>
+</head>
+<body>
+<h1>My first PHP page</h1>
+<?php
+echo "Hello World"; // echo – is output display tag
+?>
+</body>
+</html>
