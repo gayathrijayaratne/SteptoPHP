@@ -1,0 +1,14 @@
+<body>
+<h1>PHP Arrays</h1>
+
+<?php
+$cars=array ("Toyota","Nissan","Volvo","Audi","BMW");
+echo"<h3>".$cars[0]."</h3>";
+echo"<h3>".$cars[1]."</h3>";
+echo"<h3>".$cars[2]."</h3>";
+echo"<h3>".$cars[3]."</h3>";
+echo"<h3>".$cars[4]."</h3>";
+echo"<h6>I like ".$cars[2].", ".$cars[3]." and ".$cars[4].".";
+?>
+
+</body>
