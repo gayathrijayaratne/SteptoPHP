@@ -1,0 +1,13 @@
+<h1>Associate Arrays</h1>
+<h3>
+<table border="5">
+<tr>
+<?php
+$age=array ("Name"=>"Saman","Age"=>"25","Dept"=>"Sales");
+echo"<td>Name</td><td>".$age['Name']."</td></tr>";
+echo"<td>Age</td><td>".$age['Age']."</td></tr>";
+echo"<td>Dept</td><td>".$age['Dept']."</td></tr>";
+?>
+</tr>
+</table>
+</h3>
