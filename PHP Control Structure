@@ -1,0 +1,9 @@
+<body>
+<?php
+$marks=90;
+if($marks>75);
+{
+echo "Pass";
+}
+?>
+</body>
