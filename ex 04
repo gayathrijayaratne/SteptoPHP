@@ -1,0 +1,14 @@
+<body>
+<?php
+//function define 
+function Sum($x,$y)
+	{
+		$z=$x+$y;
+		return $z;
+	}
+	
+//function calls
+print'Total Value is '.Sum(5,3).'<br>';
+
+?>
+</body>
