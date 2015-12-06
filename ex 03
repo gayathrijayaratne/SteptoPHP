@@ -1,0 +1,21 @@
+<body>
+<?php
+//function define 
+function MyName($n)
+	{
+		if ($n==1)
+		{
+			return'H.L.G.R.Jayaratne';
+		}	
+		else
+		{
+			return'Gayathri Jayaratne';
+		}
+	}
+	
+//function calls
+print'I am '.MyName(1).'<br>';
+print'My Name is '.MyName(0).'<br>';
+
+?>
+</body>
