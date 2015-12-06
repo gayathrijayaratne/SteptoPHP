@@ -1,0 +1,23 @@
+<body>
+<?php
+
+if(!isset($_POST["login"])||($_POST["login"]!="Login"))
+{
+?>
+
+	<form name="forml" method="post" action="file:///C|/Users/USER/Desktop/Degree/CSD3600 Open Source Software/Web Application Development/11.05.2014/ex 05.php">
+	Username:<input name="uname" type="text"/><br>
+	Password:<input name="password" type="password"/><br/>
+	<input type="submit" name="login" value="Login"/>
+	</form>
+<?php
+}
+else
+{		
+?>
+	<strong>User Name:</strong><?php echo $_POST["uname"]?><br/>
+	<strong>Pass word:</strong><?php echo $_POST["password"]?>
+<?php
+}
+?>
+</body>
