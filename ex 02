@@ -1,0 +1,10 @@
+<body>
+<?php
+
+print"Today is  ".date("y/m/d")."<br>";
+print"Today is  ".date("y.m.d")."<br>";
+print"Today is  ".date("y-m-d")."<br>";
+print"Today is  ".date("l")."<br>";
+print"Year is  ".date("y")."<br>";
+?>
+</body>
