@@ -1,0 +1,14 @@
+<title>for loop 02</title>
+</head>
+
+<body>
+<?php
+
+	for ($a=10; $a>0; $a--)
+		{
+		echo $a."<br>";
+		}
+
+?>
+</body>
+</html>
