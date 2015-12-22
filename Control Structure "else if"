@@ -1,0 +1,27 @@
+<title>Control Structure "else if"</title>
+</head>
+
+<body>
+<?php
+
+$marks=100;
+	if ($marks>75)
+	{
+		echo "A";
+	}else if($marks>65)
+	{
+		echo "B";
+	}else if($marks>55)
+	{
+		echo "C";
+	}else if($marks>45)
+	{
+		echo "S";
+	}else
+	{
+	echo "W";
+	}
+
+?>
+</body>
+</html>
