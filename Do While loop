@@ -1,0 +1,16 @@
+<title>Do While loop</title>
+</head>
+
+<body>
+
+<?php
+$a=5;
+	do
+	{
+	$a--;
+	echo "$a";
+	}while ($a>0)
+?>
+
+</body>
+</html>
