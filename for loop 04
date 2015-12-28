@@ -1,0 +1,19 @@
+<title>for loop 04</title>
+</head>
+
+<body>
+<br />
+<?php
+
+	for($a=0; $a<101; $a++)
+	{
+		$temp=$a%2;
+			if($temp==0)
+			{
+			echo $a."<br>";
+			}
+	}	
+
+?>
+</body>
+</html>
