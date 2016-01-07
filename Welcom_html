@@ -1,0 +1,15 @@
+<title>Welcome</title>
+</head>
+
+<body>
+
+<form action="file:///C|/Users/USER/Desktop/Degree/CSD3600 Open Source Software/PHP/PHP03/Basic30.php" method="post">
+Name:&nbsp;&nbsp;<input type="text" name="Name" />
+<br />
+E-Mail:<input type="text" name="E-Mail" />
+<br />
+<input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
