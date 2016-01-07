@@ -1,0 +1,15 @@
+<body>
+
+<?php
+$subject1=01;
+$subject2=76;
+
+	if ($subject1>75 or $subject2>75){
+	echo "pass";}
+	else
+	{echo "Fail";}
+
+?>
+
+</body>
+</html>
