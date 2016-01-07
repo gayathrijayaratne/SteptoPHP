@@ -1,0 +1,11 @@
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+Welcome<br /><?php echo $_POST["Name"];?>
+<br />
+Your E-mail address is:<?php echo $_POST["E-Mail"];?>
+
+</body>
+</html>
