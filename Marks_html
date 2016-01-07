@@ -1,0 +1,15 @@
+<title>Marks</title>
+</head>
+
+<body>
+
+<form action="file:///C|/Users/USER/Desktop/Degree/CSD3600 Open Source Software/PHP/PHP03/Basic29.php" method="post">
+Subject 1:<input type="text" name="Sub1" />
+<br />
+Subject 2:<input type="text" name="Sub2" />
+<br />
+<input type="submit" value="Submit" />
+</form>
+
+</body>
+</html>
