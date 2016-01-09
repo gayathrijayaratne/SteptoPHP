@@ -1,0 +1,14 @@
+<title>Preincrement</title>
+</head>
+
+<body>
+
+<?php
+$a=10;
+$b=0;
+$b=++$a;
+echo $b;
+?>
+
+</body>
+</html>
