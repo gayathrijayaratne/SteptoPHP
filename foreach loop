@@ -1,0 +1,12 @@
+<body>
+
+<?php
+$cars=array("Toyota","Nisan","Volvo","Mitsubichi");
+	foreach($cars as $value)
+		{
+		echo "$value <br>";
+		}
+?>
+
+</body>
+</html>
