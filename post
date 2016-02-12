@@ -1,0 +1,4 @@
+Information sent from a form with the POST method is invisible to others 
+(all names / values are embedded within the body of the HTTP request) 
+and has no limits on the amount of information to send. Also POST supports advanced 
+functionality such as support for multi – part binary input while uploading files to server.
