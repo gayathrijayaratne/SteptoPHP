@@ -1,0 +1,39 @@
+<title>HTML Form with PHP</title>
+</head>
+
+<body>
+
+<form name="Application" action="Basic31.php" method="post">
+
+First Name&nbsp;&nbsp;: <input type="text" name="Fname" />
+<br />
+<br />
+Last Name&nbsp;&nbsp;: <input type="text" name="Lname" />
+<br />
+<br />
+Gender&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="radio" name="Gender" value="Female" />Female
+<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Gender" value="Male" />Male
+<br />
+<br />
+District&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <select name="District">
+<option value="Matara">Matara</option>
+<option value="Jaffna">Jaffna</option>
+<option value="Kandy">Kandy</option>
+<option value="Colombo">Colombo</option>
+<option value="Galle">Galle</option>
+</select>
+<br />
+<br />
+Subject&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: <input type="checkbox" name="Subject[]" value="Java" />Java<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Subject[]" value="C++" />C++<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Subject[]" value="VB.net" />VB.net<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Subject[]" value="PHP" />PHP<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox" name="Subject[]" value="HTML" />HTML<br />
+<br />
+<br />
+<input type="submit" value="Submit" />
+
+
+</body>
+</html>
