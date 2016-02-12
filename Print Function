@@ -1,0 +1,11 @@
+<title>Print Function</title>
+</head>
+
+<body>
+
+<?php
+print ("Hello world");
+?>
+
+</body>
+</html>
