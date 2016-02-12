@@ -1,0 +1,18 @@
+<title>Formula</title>
+</head>
+
+<body>
+
+<?php
+//function define
+function Sum($x,$y)
+	{
+	$z=$x+$y;
+	return $z;
+	}
+//function calls
+		print 'The total value is '.sum(3,5)."<br>";
+?>
+
+</body>
+</html>
