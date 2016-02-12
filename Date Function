@@ -1,0 +1,13 @@
+<title>Date Function</title>
+</head>
+
+<body>
+
+<?php
+echo "Today is". date("d/m/y")."<br>";
+echo "Today is". date("y.m.d")."<br>";
+echo "Today is". date("y-m-d")."<br>";
+echo "Today is". date("1");
+?>
+</body>
+</html>
