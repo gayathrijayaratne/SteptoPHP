@@ -1,0 +1,11 @@
+<title>Function Header</title>
+</head>
+
+<body>
+
+<?php
+header("Location:http://www.gmail.com/login.php");
+?>
+
+</body>
+</html>
