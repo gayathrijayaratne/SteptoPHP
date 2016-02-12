@@ -1,0 +1,24 @@
+<title>Return Function</title>
+</head>
+
+<body>
+
+<?php
+//function defines
+function Myname($a)
+	{
+	if ($a==1)
+		{
+		return "H.L.G.R.Jayaratne";
+		}else
+		{
+		return "Gayathri Jayaratne";
+		}
+	}	
+//function calls
+		print"I am ".Myname(1)."<br>";
+		print"My name is ".Myname(0)."<br>";
+?>
+
+</body>
+</html>
