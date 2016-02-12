@@ -1,0 +1,32 @@
+<title>HTML Form with PHP</title>
+</head>
+
+<body>
+
+<?php
+
+echo "Hello <br>";
+$Gender=$_POST["Gender"];
+	if($Gender=="Female")
+		{
+		echo"Ms.";
+		}else 
+			{
+			echo "Mr.";
+			}
+echo $_POST["Fname"].' '.$_POST["Lname"]."<br> form  ";
+	
+echo $_POST['District']."<br>Your Subjects are";
+$Subject=$_POST["Subject"];
+
+foreach($Subject as $value)
+{
+echo $value." , ";
+}		
+
+
+?>
+
+</body>
+</html>
+
