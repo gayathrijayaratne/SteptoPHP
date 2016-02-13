@@ -1,0 +1,11 @@
+<title>Java Script</title>
+</head>
+
+<body>
+
+<script language="javascript" type="text/javascript">
+document.write("Hello Java Script");
+</script>
+
+</body>
+</html>
